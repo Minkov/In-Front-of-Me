@@ -7,9 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Location.h"
+#import <CoreLocation/CoreLocation.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, CLLocationManagerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) NSString *appId;
+@property (strong, nonatomic) NSString *appCode;
+
+@property (strong, nonatomic) NSString *rootUrl;
+
+@property (nonatomic, strong) Location *location;
+
+@property (nonatomic, strong) CLLocationManager *manager;
+
+-(NSString *) buildUrlWithParameters:(NSDictionary *) queryParameters;
 
 @end

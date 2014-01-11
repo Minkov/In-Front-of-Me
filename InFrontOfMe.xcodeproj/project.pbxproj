@@ -14,13 +14,16 @@
 		260B1CF8187B1141000B1E1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B1CF7187B1141000B1E1F /* main.m */; };
 		260B1CFC187B1141000B1E1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B1CFB187B1141000B1E1F /* AppDelegate.m */; };
 		260B1CFF187B1141000B1E1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260B1CFD187B1141000B1E1F /* Main.storyboard */; };
-		260B1D02187B1141000B1E1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B1D01187B1141000B1E1F /* ViewController.m */; };
 		260B1D04187B1141000B1E1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 260B1D03187B1141000B1E1F /* Images.xcassets */; };
 		260B1D0B187B1141000B1E1F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260B1D0A187B1141000B1E1F /* XCTest.framework */; };
 		260B1D0C187B1141000B1E1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260B1CEB187B1141000B1E1F /* Foundation.framework */; };
 		260B1D0D187B1141000B1E1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260B1CEF187B1141000B1E1F /* UIKit.framework */; };
 		260B1D15187B1141000B1E1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 260B1D13187B1141000B1E1F /* InfoPlist.strings */; };
 		260B1D17187B1141000B1E1F /* InFrontOfMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B1D16187B1141000B1E1F /* InFrontOfMeTests.m */; };
+		26897FD618804D3800A1107F /* PlacesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26897FD518804D3800A1107F /* PlacesTableViewController.m */; };
+		26E0F247187FF40400644874 /* DataPersister.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E0F246187FF40400644874 /* DataPersister.m */; };
+		26E0F24B1880030600644874 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E0F24A1880030600644874 /* Location.m */; };
+		26E0F24E18800A4E00644874 /* PlaceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E0F24D18800A4E00644874 /* PlaceModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,20 @@
 		260B1CFA187B1141000B1E1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		260B1CFB187B1141000B1E1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		260B1CFE187B1141000B1E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		260B1D00187B1141000B1E1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		260B1D01187B1141000B1E1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		260B1D03187B1141000B1E1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		260B1D09187B1141000B1E1F /* InFrontOfMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InFrontOfMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		260B1D0A187B1141000B1E1F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		260B1D12187B1141000B1E1F /* InFrontOfMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InFrontOfMeTests-Info.plist"; sourceTree = "<group>"; };
 		260B1D14187B1141000B1E1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		260B1D16187B1141000B1E1F /* InFrontOfMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InFrontOfMeTests.m; sourceTree = "<group>"; };
+		26897FD418804D3800A1107F /* PlacesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesTableViewController.h; sourceTree = "<group>"; };
+		26897FD518804D3800A1107F /* PlacesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesTableViewController.m; sourceTree = "<group>"; };
+		26E0F245187FF40400644874 /* DataPersister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPersister.h; sourceTree = "<group>"; };
+		26E0F246187FF40400644874 /* DataPersister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataPersister.m; sourceTree = "<group>"; };
+		26E0F2491880030600644874 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		26E0F24A1880030600644874 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		26E0F24C18800A4E00644874 /* PlaceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceModel.h; sourceTree = "<group>"; };
+		26E0F24D18800A4E00644874 /* PlaceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +121,16 @@
 		260B1CF1187B1141000B1E1F /* InFrontOfMe */ = {
 			isa = PBXGroup;
 			children = (
+				26E0F248188002F700644874 /* Models */,
 				260B1CFA187B1141000B1E1F /* AppDelegate.h */,
 				260B1CFB187B1141000B1E1F /* AppDelegate.m */,
 				260B1CFD187B1141000B1E1F /* Main.storyboard */,
-				260B1D00187B1141000B1E1F /* ViewController.h */,
-				260B1D01187B1141000B1E1F /* ViewController.m */,
+				26897FD418804D3800A1107F /* PlacesTableViewController.h */,
+				26897FD518804D3800A1107F /* PlacesTableViewController.m */,
 				260B1D03187B1141000B1E1F /* Images.xcassets */,
 				260B1CF2187B1141000B1E1F /* Supporting Files */,
+				26E0F245187FF40400644874 /* DataPersister.h */,
+				26E0F246187FF40400644874 /* DataPersister.m */,
 			);
 			path = InFrontOfMe;
 			sourceTree = "<group>";
@@ -150,6 +162,17 @@
 				260B1D13187B1141000B1E1F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26E0F248188002F700644874 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				26E0F2491880030600644874 /* Location.h */,
+				26E0F24A1880030600644874 /* Location.m */,
+				26E0F24C18800A4E00644874 /* PlaceModel.h */,
+				26E0F24D18800A4E00644874 /* PlaceModel.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,7 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				260B1D02187B1141000B1E1F /* ViewController.m in Sources */,
+				26E0F24E18800A4E00644874 /* PlaceModel.m in Sources */,
+				26897FD618804D3800A1107F /* PlacesTableViewController.m in Sources */,
+				26E0F24B1880030600644874 /* Location.m in Sources */,
+				26E0F247187FF40400644874 /* DataPersister.m in Sources */,
 				260B1CFC187B1141000B1E1F /* AppDelegate.m in Sources */,
 				260B1CF8187B1141000B1E1F /* main.m in Sources */,
 			);
@@ -460,6 +486,7 @@
 				260B1D1C187B1141000B1E1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		260B1D1D187B1141000B1E1F /* Build configuration list for PBXNativeTarget "InFrontOfMeTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +495,7 @@
 				260B1D1F187B1141000B1E1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
